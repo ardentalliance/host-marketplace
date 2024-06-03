@@ -6,7 +6,7 @@
                 <v-flex xs12 sm8 md4>
                    <v-card class="elevation-12">
                       <v-toolbar dark color="primary">
-                         <v-toolbar-title>Please log in</v-toolbar-title>
+                         <v-toolbar-title>Please log in to access the marketplace</v-toolbar-title>
                       </v-toolbar>
                       <v-card-text>
                       <form ref="form" @submit.prevent="login()">
@@ -41,6 +41,7 @@
  
  <script>
  export default {
+   // eslint-disable-next-line
    name: "Login",
    data() {
      return {
