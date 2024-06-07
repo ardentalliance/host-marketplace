@@ -1,14 +1,14 @@
 <template>
    <v-app >
       <v-main>
-         <v-app-bar app color="#628D70" dark>
+         <v-app-bar app color="primary" dark>
           <v-app-bar-title>KPS Host Marketplace</v-app-bar-title>
           </v-app-bar>
          <v-container fluid fill-height>
             <v-layout align-center justify-center>
                <v-flex xs12 sm8 md4>
                   <v-card class="elevation-12">
-                     <v-toolbar color="#628D70" dark>
+                     <v-toolbar color="primary" dark>
                         <v-toolbar-title>Please log in to access the marketplace</v-toolbar-title>
                      </v-toolbar>
                      <v-card-text>
@@ -30,7 +30,7 @@
                               placeholder="password"
                               required
                            ></v-text-field>
-                           <v-btn type="submit" class="mt-4" color="#628D70" dark value="log in">Log in</v-btn>
+                           <v-btn type="submit" class="mt-4" color="primary" dark value="log in">Log in</v-btn>
                       </form>
                      </v-card-text>
                   </v-card>

@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 <template>
 <v-app>
-  <v-app-bar app color="#628D70" dark>
+  <v-app-bar app color="primary" dark>
     <v-app-bar-nav-icon @click="drawer =! drawer"></v-app-bar-nav-icon>
   <v-app-bar-title>KPS Host Marketplace</v-app-bar-title>
   </v-app-bar>
@@ -26,7 +26,7 @@
 
       <v-divider></v-divider>
       <!-- Navigation Links-->
-      <v-list dense nav >
+      <v-list dense nav class="primary" dark>
         <v-list-item v-for="item in items" :key="item.title" link >
           <v-list-item-icon>
             <v-icon>{{ item.icon }}</v-icon>
@@ -42,7 +42,7 @@
     <!-- Dashboard body-->
 
     <v-main>
-      <v-sheet max-height="100%"  color="#6B8D70">
+      <v-sheet max-height="100%"  color="primary">
       <v-container>
         <v-row>
           <template>
